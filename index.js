@@ -2,8 +2,6 @@ const ioHook = require('iohook')
 const robotJS = require('robotjs')
 
 let lastAction = new Date()
-robotJS.setMouseDelay(1000)
-
 const convertMsToMn = ms => {
   return ms * 1000 * 60
 }
@@ -27,7 +25,7 @@ console.log('Ready')
 setInterval(() => {
   if (new Date() - lastAction >= convertMsToMn(5)) {
     const { x, y } = robotJS.getMousePos()
-    robotJS.moveMouse(x + 100, y + 1)
+    robotJS.moveMouse(x + 1, y + 1)
     robotJS.moveMouse(x, y)
   }
 }, 10000)
