@@ -1,0 +1,10 @@
+{
+  "name": "discord-anti-afk",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "iohook": "^0.7.2",
+    "robotjs": "^0.6.0"
+  }
+}
