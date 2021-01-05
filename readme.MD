@@ -2,7 +2,7 @@
 
 ## Requirement :
 
-- Node and npm v8 minimum
+- Node 8 and npm minimum
 
 ## Install
 
